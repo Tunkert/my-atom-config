@@ -1,0 +1,286 @@
+@import "./styles/syntax-variables.less";
+
+atom-text-editor,atom-text-editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+  .is-focused .cursor {
+      border-color: @Simmons;
+    }
+
+  // This looks after the colour of the line you are writing in.
+  .is-focused, .line.cursor-line {
+     background-color: @Caboose;
+  }
+
+  .is-focused, .line-number.cursor-line-no-selection{
+    background-color: @Locus
+  }
+
+  // This looks after the word selection.
+  .selection .region {
+    background-color: @syntax-selection-color;
+	  background: repeating-linear-gradient(0deg, @Tex, @Tex 1px,
+          @syntax-selection-color 2px, @syntax-selection-color 1px);
+	  border-right: 2px solid @Sarge;
+	  border-left: 2px solid @Sarge;
+  }
+
+  .gutter {
+    background-color: darken(@syntax-gutter-background-color, 6%);
+    border-right: 5px solid @syntax-gutter-border-color;
+    color: lighten(@syntax-gutter-text-color, 2%);
+
+    .line-number {
+     &.cursor-line {
+        background-color: @syntax-gutter-border-color;
+        color: @Caboose;
+     }
+
+      &.cursor-line-no-selection {
+        color: @syntax-gutter-text-color-unslected;
+      }
+    }
+  }
+
+  .syntax--comment {
+    color: @Washington;
+  }
+}
+
+.syntax--entity {
+  &.syntax--name.syntax--type {
+    color: @York;
+    text-decoration: underline;
+  }
+
+  &.syntax--name.syntax--function {
+    color: @Maine;
+  }
+
+  &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
+    color: @York;
+  }
+
+  &.syntax--name.syntax--section {
+    color: @Maine;
+  }
+
+  &.syntax--name.syntax--tag {
+    color: @Sarge;
+    text-decoration: underline;
+  }
+
+  &.syntax--other.syntax--inherited-class {
+    font-style: italic;
+    color: @Delta;
+  }
+
+  &.syntax--other.syntax--attribute-name {
+    color: @Grif;
+
+    &.syntax--id {
+      color: @Maine;
+    }
+  }
+}
+
+.syntax--keyword {
+  color: @Doc;
+
+  &.syntax--control {
+    color: @Doc;
+  }
+
+  &.syntax--operator {
+    color: @syntax-text-color;
+  }
+
+  &.syntax--other.syntax--special-method {
+    color: @Maine;
+  }
+
+  &.syntax--other.syntax--unit {
+    color: @Grif;
+  }
+}
+
+.syntax--storage {
+  color: @Doc;
+}
+
+.syntax--constant {
+  color: @Grif;
+}
+
+.syntax--variable {
+  color: @Sarge;
+
+  &.syntax--interpolation {
+    color: darken(@Sarge, 10%);
+  }
+
+  &.syntax--parameter.syntax--function {
+    color: @syntax-text-color;
+  }
+}
+
+.syntax--support {
+  &.syntax--class {
+    color: @York;
+  }
+
+  &.syntax--function  {
+    color: @Tucker;
+
+    &.syntax--method {
+      color: @Maine;
+    }
+  }
+}
+
+.syntax--invalid.syntax--illegal {
+  font-style: italic;
+  color: @Sister;
+}
+
+.syntax--string {
+  color: @a-lighter-shade-of-red;
+
+  &.syntax--constant.syntax--other.syntax--placeholder {
+    color: @Grif;
+  }
+
+  &.syntax--regexp {
+    color: @Tucker;
+
+    .syntax--source.syntax--ruby.syntax--embedded {
+      color: @Grif;
+    }
+  }
+
+  &.syntax--other.syntax--link {
+    color: @Sarge;
+  }
+}
+
+.syntax--punctuation {
+  &.syntax--definition {
+    &.syntax--comment {
+      color: @Washington;
+    }
+
+    &.syntax--string{
+      color: @syntax-text-color;
+    }
+
+    &.syntax--variable{
+      color: @syntax-text-color;
+    }
+
+    &.syntax--parameters{
+      color: @syntax-text-color;
+    }
+
+    &.syntax--array {
+      color: @syntax-text-color;
+    }
+
+    &.syntax--heading,
+    &.syntax--identity {
+      color: @Maine;
+    }
+
+    &.syntax--bold {
+      color: @York;
+      font-style: bold;
+    }
+
+    &.syntax--italic {
+      color: @Doc;
+      font-style: italic;
+    }
+  }
+
+  &.syntax--section.syntax--embedded {
+    color: darken(@Sarge, 10%);
+  }
+
+}
+
+.syntax--meta {
+  &.syntax--class {
+    color: @York;
+  }
+
+  &.syntax--link {
+    color: @Grif;
+  }
+
+  &.syntax--require {
+    color: @Maine;
+  }
+
+  &.syntax--selector {
+    color: @Doc;
+  }
+
+  &.syntax--separator {
+    background-color: @Warthog;
+    color: @syntax-text-color;
+  }
+}
+
+.syntax--none {
+  color: @syntax-text-color;
+}
+
+.syntax--markup {
+  &.syntax--bold {
+    color: @Grif;
+    font-style: bold;
+  }
+
+  &.syntax--changed {
+    color: @Doc;
+  }
+
+  &.syntax--deleted {
+    color: @Sarge;
+  }
+
+  &.syntax--italic {
+    color: @Doc;
+    font-style: italic;
+  }
+
+  &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
+    color: @Maine;
+  }
+
+  &.syntax--inserted {
+    color: @Delta;
+  }
+
+  &.syntax--list {
+    color: @Sarge;
+  }
+
+  &.syntax--quote {
+    color: @Grif;
+  }
+
+  &.syntax--raw.syntax--inline {
+    color: @Delta;
+  }
+}
+
+.syntax--source.syntax--gfm .syntax--markup {
+  -webkit-font-smoothing: auto;
+  &.syntax--heading {
+    color: @Delta;
+  }
+}
+
+.atom-text-editor[mini] .scroll-view {
+  padding-left: 1px;
+}

@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/count-word/versions/0.2.3/tarball",
+  "_id": "count-word@0.2.3",
+  "_inBundle": false,
+  "_integrity": "sha512-zBX1cv4PrCqgVWDzBeLCmfWZRwuL12XTszU6fPxDhaVapUT+ktjZl27Sb3g6wtOSNpXXs1z8YRFRCSzM42l4ug==",
+  "_location": "/count-word",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/count-word/versions/0.2.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/count-word/versions/0.2.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/count-word/versions/0.2.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/count-word/versions/0.2.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/count-word/versions/0.2.3/tarball",
+  "_shasum": "0ca64c40e09e9ce57468594886d336b7f834d374",
+  "_spec": "https://www.atom.io/api/packages/count-word/versions/0.2.3/tarball",
+  "_where": "/tmp/apm-install-dir-2022315-1809-1mreieg.8onv",
+  "activationCommands": {
+    "atom-workspace": "count-word:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/ystkme/count-word/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Count characters, words and lines.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ystkme/count-word#readme",
+  "license": "MIT",
+  "main": "./lib/count-word",
+  "name": "count-word",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ystkme/count-word.git"
+  },
+  "version": "0.2.3"
+}

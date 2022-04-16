@@ -1,0 +1,49 @@
+{
+  "_from": "https://www.atom.io/api/packages/vs-like-dark-syntax/versions/1.0.0/tarball",
+  "_id": "vs-like-dark-syntax@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-gZXHn/kNu+0Pz2Ate/OGfNGVXMaQM4cZcaVP1bJACyI7r1mIjmaedd3Ryz7UzMz8PqTCZoViD62EenLCdsYJSQ==",
+  "_location": "/vs-like-dark-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/vs-like-dark-syntax/versions/1.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/vs-like-dark-syntax/versions/1.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/vs-like-dark-syntax/versions/1.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/vs-like-dark-syntax/versions/1.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/vs-like-dark-syntax/versions/1.0.0/tarball",
+  "_shasum": "ad3bbaf14d72740d949d108cd0b216e3810cbc7b",
+  "_spec": "https://www.atom.io/api/packages/vs-like-dark-syntax/versions/1.0.0/tarball",
+  "_where": "/tmp/apm-install-dir-2022315-905-1mwj82a.c27y",
+  "bugs": {
+    "url": "https://github.com/nicoschuele/vs-like-dark-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A dark syntax theme close to Visual Studio 2017",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/nicoschuele/vs-like-dark-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "Visual Studio",
+    "vs",
+    "Dark",
+    "2017"
+  ],
+  "license": "MIT",
+  "name": "vs-like-dark-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoschuele/vs-like-dark-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.0.0"
+}

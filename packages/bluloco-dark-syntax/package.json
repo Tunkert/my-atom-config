@@ -1,0 +1,50 @@
+{
+  "_from": "https://www.atom.io/api/packages/bluloco-dark-syntax/versions/1.0.0/tarball",
+  "_id": "bluloco-dark-syntax@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-czMPMq0eksX1mQwaEOtsfWv4RYCkEwgTAhwuEaCiD5dsYQlKGMOHpgGm4fE7KNzjiEjaWmqwQa7GCGT71fHt9w==",
+  "_location": "/bluloco-dark-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/bluloco-dark-syntax/versions/1.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/bluloco-dark-syntax/versions/1.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/bluloco-dark-syntax/versions/1.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/bluloco-dark-syntax/versions/1.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/bluloco-dark-syntax/versions/1.0.0/tarball",
+  "_shasum": "440fcd4dcae78bbf7b1a8d026161317825a00726",
+  "_spec": "https://www.atom.io/api/packages/bluloco-dark-syntax/versions/1.0.0/tarball",
+  "_where": "/tmp/apm-install-dir-2022315-1849-ecq47f.yejj8",
+  "bugs": {
+    "url": "https://github.com/uloco/bluloco-dark-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A fancy but yet sophisticated dark designer color scheme for the Atom editor",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/uloco/bluloco-dark-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "bluloco",
+    "designer",
+    "meaningful",
+    "color",
+    "scheme"
+  ],
+  "license": "MIT",
+  "name": "bluloco-dark-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uloco/bluloco-dark-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.0.0"
+}

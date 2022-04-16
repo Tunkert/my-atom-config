@@ -1,0 +1,48 @@
+{
+  "_from": "https://www.atom.io/api/packages/the-matrix-syntax/versions/0.6.0/tarball",
+  "_id": "the-matrix-syntax@0.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-CI2RuredgDQkTQArlYnWhLnkdmUDPYy/zLKMj+UNwqNKvD50A+dUje6ncYuM/DdMHZnWU8HYY4BSmC61Idb64w==",
+  "_location": "/the-matrix-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/the-matrix-syntax/versions/0.6.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/the-matrix-syntax/versions/0.6.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/the-matrix-syntax/versions/0.6.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/the-matrix-syntax/versions/0.6.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/the-matrix-syntax/versions/0.6.0/tarball",
+  "_shasum": "8860f0df36b16e343e2d523c69b3178c00feb22f",
+  "_spec": "https://www.atom.io/api/packages/the-matrix-syntax/versions/0.6.0/tarball",
+  "_where": "/tmp/apm-install-dir-2022315-3583-1qn0dju.mgdg",
+  "bugs": {
+    "url": "https://github.com/Huaraz2/the-matrix-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A syntax theme similar to the matrix theme on cloudsagemath",
+  "engines": {
+    "atom": ">=0.50.0"
+  },
+  "homepage": "https://github.com/Huaraz2/the-matrix-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "dark",
+    "cloudsagemath",
+    "The-Matrix"
+  ],
+  "license": "MIT",
+  "name": "the-matrix-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Huaraz2/the-matrix-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.6.0"
+}

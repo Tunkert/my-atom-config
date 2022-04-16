@@ -1,0 +1,15 @@
+"*":
+  core:
+    autoHideMenuBar: true
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "garbagescape"
+    ]
+  editor:
+    fontFamily: "Hermit, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    scrollPastEnd: true
+  "exception-reporting":
+    userId: "9e780984-d869-4c13-913d-77ecc29eba79"
+  welcome:
+    showOnStartup: false

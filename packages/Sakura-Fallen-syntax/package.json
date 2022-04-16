@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/sakura-fallen-syntax/versions/1.3.1/tarball",
+  "_id": "Sakura-Fallen-syntax@1.3.1",
+  "_inBundle": false,
+  "_integrity": "sha512-zwC3t6gXW9JRVViHkUEDExoAZeipddNA29O+JraTuPJ+IDlW8MhVVMLBFAMkFcVmLGdlYBodMTfx/K4AylP/1w==",
+  "_location": "/Sakura-Fallen-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/sakura-fallen-syntax/versions/1.3.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/sakura-fallen-syntax/versions/1.3.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/sakura-fallen-syntax/versions/1.3.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/sakura-fallen-syntax/versions/1.3.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/sakura-fallen-syntax/versions/1.3.1/tarball",
+  "_shasum": "53b4d859c914bcce6dac050f19ce9fb6d69e8988",
+  "_spec": "https://www.atom.io/api/packages/sakura-fallen-syntax/versions/1.3.1/tarball",
+  "_where": "/tmp/apm-install-dir-2022315-2291-th6go9.bctb",
+  "bugs": {
+    "url": "https://github.com/Tariq-C/sakura-fallen-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A low brightness Sakura Blossom themed syntax which hopes to create calm, pretty, but still highly efficient experience",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Tariq-C/sakura-fallen-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "Sakura-Fallen-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tariq-C/sakura-fallen-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.3.1"
+}

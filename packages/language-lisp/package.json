@@ -1,0 +1,42 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-lisp/versions/0.2.0/tarball",
+  "_id": "language-lisp@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ZXz9bz0QqPKtRPyO+xDlp5autN6KrNE6fvaB+uJX8AdzjXHZ+bvmPU95QgSmoSw098XqgsQWxQa4ajjspCqFTw==",
+  "_location": "/language-lisp",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-lisp/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-lisp/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-lisp/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-lisp/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-lisp/versions/0.2.0/tarball",
+  "_shasum": "d05bde6ab325390c9adc5ce4802d23b07491c24f",
+  "_spec": "https://www.atom.io/api/packages/language-lisp/versions/0.2.0/tarball",
+  "_where": "/tmp/apm-install-dir-2022315-5032-1a7wncf.ox9v",
+  "bugs": {
+    "url": "https://github.com/enriquefernandez/language-lisp/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Lisp support for Atom (converted from Textmate bundle)",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/enriquefernandez/language-lisp#readme",
+  "license": "MIT",
+  "name": "language-lisp",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enriquefernandez/language-lisp.git"
+  },
+  "version": "0.2.0"
+}

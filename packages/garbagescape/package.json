@@ -1,0 +1,55 @@
+{
+  "_from": "https://www.atom.io/api/packages/garbagescape/versions/2.0.0/tarball",
+  "_id": "garbagescape@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-OMR6gmlvZH2UbFLYWwdbdr6IKJw1sRfnwbjMWP2YfsmAhTYYdGLTDGGN/F8AoVnW+UzdYBc0tiZDZD4qrewvGA==",
+  "_location": "/garbagescape",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/garbagescape/versions/2.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/garbagescape/versions/2.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/garbagescape/versions/2.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/garbagescape/versions/2.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/garbagescape/versions/2.0.0/tarball",
+  "_shasum": "315bad5e147a4bd5e03ad5f15a769ed78302290a",
+  "_spec": "https://www.atom.io/api/packages/garbagescape/versions/2.0.0/tarball",
+  "_where": "/tmp/apm-install-dir-2022315-3639-1b6lr3r.9557",
+  "bugs": {
+    "url": "https://github.com/mikemackintosh/atom-garbagescape/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A bright and enlighting syntax theme for use with Garbagescape-ui",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/mikemackintosh/atom-garbagescape#readme",
+  "keywords": [
+    "syntax",
+    "suburb",
+    "garbage",
+    "scape",
+    "garbagescape",
+    "dark",
+    "bright",
+    "yummy",
+    "tastey",
+    "tasty",
+    "colorful",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "garbagescape",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikemackintosh/atom-garbagescape.git"
+  },
+  "theme": "syntax",
+  "version": "2.0.0"
+}

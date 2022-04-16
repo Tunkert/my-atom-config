@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/xcode-theme/versions/2.0.0/tarball",
+  "_id": "xcode-theme@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ngC7iyCCkrx55ffnYQXg0HicJFBDctaAts3K4WQlsq/3bR5TqtXAr/+sONPOCVDT1iXDKd6+/JWWredQeR8NjA==",
+  "_location": "/xcode-theme",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/xcode-theme/versions/2.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/xcode-theme/versions/2.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/xcode-theme/versions/2.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/xcode-theme/versions/2.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/xcode-theme/versions/2.0.0/tarball",
+  "_shasum": "84715322c20132d6ed9ff6d3b36f414c53e8cccc",
+  "_spec": "https://www.atom.io/api/packages/xcode-theme/versions/2.0.0/tarball",
+  "_where": "/tmp/apm-install-dir-2022315-2205-1epa4z7.r8a1",
+  "bugs": {
+    "url": "https://github.com/ElDeveloper/xcode-theme/issues"
+  },
+  "bundleDependencies": false,
+  "credits": {
+    "Carmine Paolino": "@crmne",
+    "Adam Lickel": "@lickel",
+    "Yoshiki Vazquez-Baeza": "@ElDeveloper",
+    "Carlos Arauz": "@arauzca"
+  },
+  "deprecated": false,
+  "description": "Xcode-looking color scheme",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/ElDeveloper/xcode-theme#readme",
+  "license": "MIT",
+  "name": "xcode-theme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElDeveloper/xcode-theme.git"
+  },
+  "theme": "syntax",
+  "version": "2.0.0"
+}

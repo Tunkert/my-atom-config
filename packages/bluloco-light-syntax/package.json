@@ -1,0 +1,50 @@
+{
+  "_from": "https://www.atom.io/api/packages/bluloco-light-syntax/versions/1.0.0/tarball",
+  "_id": "bluloco-light-syntax@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-cZd1APoPfYRo67t+JvRUXTwehfwR1NspVtIytyxw96TlX13wJZwXATxVLABcxI7nmdbyoCRQrO40A71BT5W6IQ==",
+  "_location": "/bluloco-light-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/bluloco-light-syntax/versions/1.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/bluloco-light-syntax/versions/1.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/bluloco-light-syntax/versions/1.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/bluloco-light-syntax/versions/1.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/bluloco-light-syntax/versions/1.0.0/tarball",
+  "_shasum": "11e9e75afd5160191a2fa15e294a46b49aa3665d",
+  "_spec": "https://www.atom.io/api/packages/bluloco-light-syntax/versions/1.0.0/tarball",
+  "_where": "/tmp/apm-install-dir-2022315-1904-5pvex.56bh5b",
+  "bugs": {
+    "url": "https://github.com/uloco/bluloco-light-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A fancy but yet sophisticated light designer color scheme for the Atom editor",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/uloco/bluloco-light-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "bluloco",
+    "designer",
+    "meaningful",
+    "color",
+    "scheme"
+  ],
+  "license": "MIT",
+  "name": "bluloco-light-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uloco/bluloco-light-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.0.0"
+}
